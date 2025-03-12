@@ -35,45 +35,6 @@ export class VejezComponent implements OnInit {
     });
   }
 
-  // generarTabla() {
-  //   // Encabezados de la tabla
-  //   const tabla = [
-  //     [
-  //       { text: 'CASO N°', alignment: 'center', style: 'normalTablaBold' },
-  //       { text: 'EXPEDIENTE', alignment: 'center', style: 'normalTablaBold' },
-  //       { text: 'SOLICITANTE', alignment: 'center', style: 'normalTablaBold' },
-  //       { text: 'DNI', alignment: 'center', style: 'normalTablaBold' },
-  //       { text: 'MONTO', alignment: 'center', style: 'normalTablaBold' },
-  //       { text: 'EFECTIVIDAD', alignment: 'center', style: 'normalTablaBold' },
-  //     ],
-  //   ];
-
-  //   // Datos dinámicos de la resolución
-  //   this.resolucion.forEach((res, index) => {
-  //     tabla.push([
-  //       {
-  //         text: (index + 1).toString(),
-  //         alignment: 'center',
-  //         style: 'normalTabla',
-  //       }, // Número de caso
-  //       { text: res.expediente, alignment: 'left', style: 'normalTabla' },
-  //       { text: res.solicitante, alignment: 'left', style: 'normalTabla' },
-  //       { text: res.DNI, alignment: 'center', style: 'normalTabla' },
-  //       {
-  //         text: res.monto.toString(),
-  //         alignment: 'right',
-  //         style: 'normalTabla',
-  //       }, // Asegurar que sea string
-  //       {
-  //         text: new Date(res.efectividad).toLocaleDateString(),
-  //         alignment: 'center',
-  //         style: 'normalTabla',
-  //       }, // Fecha formateada
-  //     ]);
-  //   });
-
-  //   return tabla;
-  // }
   generarTabla(startIndex: number, endIndex: number) {
     const tabla = [
       [
@@ -103,7 +64,8 @@ export class VejezComponent implements OnInit {
           style: 'normalTabla',
         },
         {
-          text: new Date(res.efectividad).toLocaleDateString(),
+          //text: new Date(res.efectividad).toLocaleDateString(),
+          text: res.efectividad,
           alignment: 'center',
           style: 'normalTabla',
         },
@@ -132,7 +94,7 @@ export class VejezComponent implements OnInit {
   }
 
   documentContent() {
-    return [
+    const content = [
       { text: 'RESOLUCIÓN NO. 638-2025-CI-TEGUCIGALPA', style: 'header' },
       {
         text: ['\n'],
@@ -315,25 +277,50 @@ export class VejezComponent implements OnInit {
         },
         style: 'normalTabla',
       },
-      { text: ' ', pageBreak: 'before', style: 'nada'},
+      { text: ' ', pageBreak: 'before', style: 'nada' },
       {
         text: ['\n'],
         style: 'nada',
       },
-      {
-        table: {
-          widths: ['auto', 'auto', 'auto', 'auto', 'auto', 'auto'],
-          body: this.generarTabla(23, this.resolucion.length), // Segunda página (desde el registro 24)
-          layout: 'lightHorizontalLines',
-        },
-        style: 'normalTabla',
-      },      
-      {
-        text: ['\n', '\n'],
-        style: 'nada',
-      },
+    ];
+
+    let startIndex = 23;
+    const pageSize = 28;
+
+    if (this.resolucion.length > 23) {
+      while (startIndex < this.resolucion.length) {
+        const endIndex = Math.min(
+          startIndex + pageSize,
+          this.resolucion.length
+        );
+        content.push({
+          text: ['\n', '\n','\n'],
+          style: 'nada',
+        },)
+        content.push({
+          table: {
+            widths: ['auto', 'auto', 'auto', 'auto', 'auto', 'auto'],
+            body: this.generarTabla(startIndex, endIndex),
+            layout: 'lightHorizontalLines',
+          },
+          style: 'normalTabla',
+        });
+
+        startIndex = endIndex;
+        if (startIndex < this.resolucion.length) {
+          content.push({ text: ' ', pageBreak: 'before', style: 'nada' });
+        }else{
+          content.push({ text: ' ', pageBreak: 'before', style: 'nada' });
+        }
+      }
+    } 
+    content.push(
       {
         text: [
+          {
+            text: '\n\n\n',
+            style: 'nada',
+          },
           {
             text: 'SEGUNDO: ',
             style: 'normalBold',
@@ -409,7 +396,7 @@ export class VejezComponent implements OnInit {
         ],
       },
       {
-        text: ['\n', '\n', '\n', '\n', '\n', '\n', '\n', '\n'],
+        text: ['\n', '\n', '\n', '\n', '\n', '\n', '\n', '\n', '\n', '\n', '\n', '\n', '\n', '\n', '\n', '\n', '\n', '\n', '\n', '\n'],
         style: 'nada',
       },
       {
@@ -419,7 +406,8 @@ export class VejezComponent implements OnInit {
       {
         text: 'PRESIDENTA COMISIÓN INTERVENTORA IHSS',
         style: 'normalBold',
-      },
-    ];
+      }
+    );
+    return content;
   }
 }

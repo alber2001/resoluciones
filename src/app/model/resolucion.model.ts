@@ -3,5 +3,5 @@ export interface resolucion {
     solicitante: string;
     DNI: string;
     monto: string
-    efectividad: Date;
+    efectividad: string;
 }
