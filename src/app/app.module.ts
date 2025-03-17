@@ -8,6 +8,7 @@ import { ReversoComponent } from './reverso/reverso.component';
 import { TablaComponent } from './tabla/tabla.component';
 import { AyudaComponent } from './ayuda/ayuda.component';
 import { VejezComponent } from './vejez/vejez.component';
+import { ViudezComponent } from './viudez/viudez.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { VejezComponent } from './vejez/vejez.component';
     ReversoComponent,
     TablaComponent,
     AyudaComponent,
-    VejezComponent
+    VejezComponent,
+    ViudezComponent
   ],
   imports: [
     BrowserModule,
