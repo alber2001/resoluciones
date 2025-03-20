@@ -9,7 +9,7 @@ pdfMake.fonts = fonts;
 import { fonts } from '../config/pdfFonts';
 import { styles, defaultStyle } from '../config/customStyle';
 import { imageFondo } from '../files/imageFondo';
-import { style } from '@angular/animations';
+
 
 @Component({
   selector: 'app-viudez',
@@ -266,7 +266,7 @@ export class ViudezComponent implements OnInit {
         style: 'nada',
       },
       {
-        text: 'BENEFICIO DE PENSIÓN POR VEJEZ',
+        text: 'BENEFICIO DE PENSIÓN POR VIUDEZ',
         style: 'normalBold',
       },
       {
