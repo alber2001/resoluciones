@@ -124,5 +124,41 @@
         "DNI_Causante": "0801-1966-08184",
         "monto": "9119",
         "efectividad": "28/02/24"
+    },
+    {
+        "expediente": "RIVM-5883-2038",
+        "solicitante": "NOE FLORES TORRES",
+        "DNI": "0801-1966-07915",
+        "causante": "ADA MARINA MIRANDA ALVAREZ",
+        "DNI_Causante": "0801-1966-08185",
+        "monto": "5266",
+        "efectividad": "29/02/24"
+    },
+    {
+        "expediente": "RIVM-5883-2039",
+        "solicitante": "CARLOS ARMANDO MEDINA PACHECO",
+        "DNI": "0801-1966-07916",
+        "causante": "VICTORIA AGUILERA AGUILERA",
+        "DNI_Causante": "0801-1966-08186",
+        "monto": "6874",
+        "efectividad": "01/03/24"
+    },
+    {
+        "expediente": "RIVM-5883-2040",
+        "solicitante": "MINORIA CABRERA",
+        "DNI": "0801-1966-07917",
+        "causante": "EVELYN PATRICIA ORDOÑEZ ZELAYA",
+        "DNI_Causante": "0801-1966-08187",
+        "monto": "6804",
+        "efectividad": "02/03/24"
+    },
+    {
+        "expediente": "RIVM-5883-2041",
+        "solicitante": "JOSE MEDARDO LAINEZ PINEDA",
+        "DNI": "0801-1966-07918",
+        "causante": "BESSY JAKELINE VALLADARES FLORES",
+        "DNI_Causante": "0801-1966-08188",
+        "monto": "6868",
+        "efectividad": "03/03/24"
     }
 ]

@@ -142,7 +142,7 @@ export class ViudezComponent implements OnInit {
       });
 
       content.push(...cierreContent);
-    } else if (this.resolucion.length > 7 && this.resolucion.length < 16) {
+    } else if (this.resolucion.length > 7 || this.resolucion.length < 16) {
       content.push({
         margin: [-20, 0, 0, 0],
         table: {
