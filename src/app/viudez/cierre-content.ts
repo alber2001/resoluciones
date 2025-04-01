@@ -88,8 +88,6 @@ export const cierreContent = [
       '\n',
       '\n',
       '\n',
-      '\n',
-      '\n',
       '\n'      
     ],
     style: 'nada',
