@@ -9,6 +9,7 @@ import { TablaComponent } from './tabla/tabla.component';
 import { AyudaComponent } from './ayuda/ayuda.component';
 import { VejezComponent } from './vejez/vejez.component';
 import { ViudezComponent } from './viudez/viudez.component';
+import { VistaQrComponent } from './vista-qr/vista-qr.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { ViudezComponent } from './viudez/viudez.component';
     TablaComponent,
     AyudaComponent,
     VejezComponent,
-    ViudezComponent
+    ViudezComponent,
+    VistaQrComponent
   ],
   imports: [
     BrowserModule,

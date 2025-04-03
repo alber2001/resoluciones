@@ -4,6 +4,7 @@ import { ResolucionService } from '../service/resolucion.service';
 
 import * as pdfMake from 'pdfmake/build/pdfmake';
 import * as pdfFonts from '../../assets/vfs_fonts.js';
+
 pdfMake.vfs = pdfFonts.pdfMake.vfs;
 pdfMake.fonts = fonts;
 import { fonts } from '../config/pdfFonts';
@@ -37,9 +38,6 @@ export class ViudezComponent implements OnInit {
   }
 
   generarTabla(startIndex: number, endIndex: number) {
-    // console.log(`Generando tabla de ${startIndex} a ${endIndex}`);
-    // console.log('Registros disponibles:', this.resolucion.length);
-
     if (this.resolucion.length === 0) {
       return [
         [{ text: 'No hay datos disponibles', colSpan: 8, alignment: 'center' }],
@@ -89,7 +87,6 @@ export class ViudezComponent implements OnInit {
             style: 'normalPeque',
           },
           {
-            //text: new Date(res.efectividad).toLocaleDateString(),
             text: res.efectividad,
             alignment: 'center',
             style: 'normalPeque',

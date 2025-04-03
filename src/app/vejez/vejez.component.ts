@@ -9,7 +9,6 @@ pdfMake.fonts = fonts;
 import { fonts } from '../config/pdfFonts';
 import { styles, defaultStyle } from '../config/customStyle';
 import { imageFondo } from '../files/imageFondo';
-import { style } from '@angular/animations';
 import { resuelveContent } from './resuelve-content';
 import { resolucionContent } from './resolucion-content';
 
@@ -94,7 +93,7 @@ export class VejezComponent implements OnInit {
     pdfMake.createPdf(documentDefinition).open();
   }
 
-  //inicio de PDF ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+  ///////////////////////////////////////////////////////////////////////inicio de PDF ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
   documentContent() {
     const content: any[] = [];
 
