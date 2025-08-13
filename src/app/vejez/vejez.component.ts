@@ -56,7 +56,7 @@ export class VejezComponent implements OnInit {
           alignment: 'center',
           style: 'normalTabla',
         },
-        { text: res.expediente, alignment: 'left', style: 'normalTabla' },
+        { text: res.rivm, alignment: 'left', style: 'normalTabla' },
         { text: res.solicitante, alignment: 'left', style: 'normalTabla' },
         { text: res.DNI, alignment: 'center', style: 'normalTabla' },
         {

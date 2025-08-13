@@ -1,5 +1,6 @@
 export interface resolucion {
-  expediente: string;
+  numero_resolucion: string;
+  rivm: string;
   solicitante: string;
   DNI: string;
   monto: string;

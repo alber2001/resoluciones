@@ -35,7 +35,20 @@ export const styles = {
   normalPeque: {
     font: 'Arial',
     fontSize: 8,    
-  } 
+  },
+  titulo: {
+    font: 'Arial',
+    fontSize: 10.5,
+    bold: true
+  },
+  tituloN:{
+    font: 'Arial',
+    fontSize: 10.5,    
+  },
+  tituloS:{
+    font: 'Arial',
+    fontSize: 10,    
+  }
 
 };
 

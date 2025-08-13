@@ -1,4 +1,5 @@
 export interface Dictamen{
+		numero_resolucion: string,
         rivm: string,
 		regional: number,
 		estado: string,

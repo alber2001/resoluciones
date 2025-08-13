@@ -10,14 +10,14 @@ pdfMake.fonts = fonts;
 import { fonts } from '../config/pdfFonts';
 import { styles, defaultStyle } from '../config/customStyle';
 import { imageFondo } from '../files/imageFondo';
-import { cabeceraContent } from './cabecera-content';
-import { cierreContent } from './cierre-content';
+import { cabeceraContent } from './cabeceraInvalidez-content';
+import { cierreContent } from './cierreInvalidez-content';
 
 @Component({
-  selector: 'app-viudez',
-  templateUrl: './viudez.component.html',
+  selector: 'app-invalidez',
+  templateUrl: './invalidez.component.html',  
 })
-export class ViudezComponent implements OnInit {
+export class InvalidezComponent implements OnInit {
   constructor(private resolucionService: ResolucionService) {}
 
   ngOnInit(): void {
@@ -44,7 +44,7 @@ export class ViudezComponent implements OnInit {
     } else {
       const tabla = [
         [
-          { text: 'CASO N°', alignment: 'center', style: 'normalTablaBold' },
+          { text: 'N°', alignment: 'center', style: 'normalTablaBold' },
           { text: 'EXPEDIENTE', alignment: 'center', style: 'normalTablaBold' },
           {
             text: 'SOLICITANTE',
@@ -52,7 +52,7 @@ export class ViudezComponent implements OnInit {
             style: 'normalTablaBold',
           },
           { text: 'DNI', alignment: 'center', style: 'normalTablaBold' },
-          { text: 'CAUSANTE', alignment: 'center', style: 'normalTablaBold' },
+          //{ text: 'CAUSANTE', alignment: 'center', style: 'normalTablaBold' },
           {
             text: 'DNI CAUSANTE',
             alignment: 'center',
@@ -78,7 +78,7 @@ export class ViudezComponent implements OnInit {
           { text: res.rivm, alignment: 'left', style: 'normalPeque' },
           { text: res.solicitante, alignment: 'left', style: 'normalPeque' },
           { text: res.DNI, alignment: 'left', style: 'normalPeque' },
-          { text: res.causante, alignment: 'left', style: 'normalPeque' },
+          //{ text: res.causante, alignment: 'left', style: 'normalPeque' },
           { text: res.DNI_Causante, alignment: 'left', style: 'normalPeque' },
           {
             text: res.monto.toString(),
@@ -123,14 +123,14 @@ export class ViudezComponent implements OnInit {
 
     content.push(...cabeceraContent);
 
-    let startIndex = 16;
-    const pageSize = 18;
+    let startIndex = 23;
+    const pageSize = 30;
 
     if (this.resolucion.length <= 6) {
       content.push({
         margin: [-20, 0, 0, 0],
         table: {
-          widths: [25, 45, 75, 65, 75, 65, 35, 35],
+          widths: [20, 70, 95, 65, 75, 35, 65],
           body: this.generarTabla(0, 6),
           layout: 'lightHorizontalLines',
         },
@@ -138,12 +138,12 @@ export class ViudezComponent implements OnInit {
       });
 
       content.push(...cierreContent);
-    } else if (this.resolucion.length > 7 || this.resolucion.length < 16) {
+    } else if (this.resolucion.length > 7 || this.resolucion.length < 23) {
       content.push({
         margin: [-20, 0, 0, 0],
         table: {
-          widths: [25, 45, 75, 65, 75, 65, 35, 35],
-          body: this.generarTabla(0, 16),
+          widths: [20, 70, 95, 65, 75, 35, 65],
+          body: this.generarTabla(0, 23),
           layout: 'lightHorizontalLines', // Aquí se asegura que se usará un layout con líneas horizontales
         },
         style: 'normalTabla', // Aquí defines el estilo de la tabla
@@ -161,20 +161,20 @@ export class ViudezComponent implements OnInit {
         content.push({
           margin: [-20, 0, 0, 0],
           table: {
-            widths: [25, 45, 75, 65, 75, 65, 35, 35],
+            widths: [20, 70, 95, 65, 75, 35, 65],
             body: this.generarTabla(startIndex, endIndex),
             layout: 'lightHorizontalLines',
           },
           style: 'normalTabla',
         });
 
-        let cantidad = this.resolucion.length - 16;
-        let restante = cantidad % 18;
+        let cantidad = this.resolucion.length - 23;
+        let restante = cantidad % 30;
 
         startIndex = endIndex;
         if (startIndex < this.resolucion.length) {
           content.push({ text: ' ', pageBreak: 'before', style: 'nada' });
-        } else if (restante <= 6) {
+        } else if (restante <= 27) {
           content.push({
             text: ['\n'],
             style: 'nada',
