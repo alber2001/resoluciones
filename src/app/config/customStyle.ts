@@ -1,3 +1,5 @@
+import { bold } from "colors";
+
 export const styles = {
   header: {
     font: 'Arial',
@@ -48,6 +50,13 @@ export const styles = {
   tituloS:{
     font: 'Arial',
     fontSize: 10,    
+  },
+  cabecera:{
+    font: 'Arial',
+    fontSize: 10.5,
+    alignment: 'center',
+    lineHeight: 1.3, 
+    bold: true
   }
 
 };

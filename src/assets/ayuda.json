@@ -1,0 +1,359 @@
+{
+	"numero_planilla": "38-2025",
+	"fecha_pago_planillas": "19-septiembre-2025",
+	"pagos_registrados": 2,
+	"monto_pagar_gastos_funebres": "33,541.00",
+	"planillas": [
+		{
+			"identidad_solicitante": "0801200718997",
+			"nombre_completo_solicitante": "CARLOS JAVIER RIVERA PÉREZ",
+			"identidad_fallecido": "0801198713352",
+			"nombre_completo_fallecido": "MARÍA FERNANDA CASTILLO LÓPEZ",
+			"tipo_solicitud": "Solicitud de Ayuda Funeraria Trabajadores Activos.",
+			"lugar_acreditacion": "Tegucigalpa M.D.C.",
+			"monto": "15,435.00"
+		},
+		{
+			"identidad_solicitante": "0801197206973",
+			"nombre_completo_solicitante": "LUIS ALBERTO MENDOZA CRUZ",
+			"identidad_fallecido": "0801196006994",
+			"nombre_completo_fallecido": "SOFÍA ISABEL GÓMEZ ZELAYA",
+			"tipo_solicitud": "Solicitud de Ayuda Funeraria Trabajadores Activos.",
+			"lugar_acreditacion": "Tegucigalpa M.D.C.",
+			"monto": "18,106.00"
+		},
+		{
+			"identidad_solicitante": "0801197206973",
+			"nombre_completo_solicitante": "JORGE ENRIQUE SÁNCHEZ DÍAZ",
+			"identidad_fallecido": "0801196006994",
+			"nombre_completo_fallecido": "LAURA PATRICIA REYES MORALES",
+			"tipo_solicitud": "Solicitud de Ayuda Funeraria Trabajadores Activos.",
+			"lugar_acreditacion": "Tegucigalpa M.D.C.",
+			"monto": "18,106.00"
+		},
+		{
+			"identidad_solicitante": "0801200718997",
+			"nombre_completo_solicitante": "RICARDO ANDRÉS FLORES MEJÍA",
+			"identidad_fallecido": "0801198713352",
+			"nombre_completo_fallecido": "ELENA BEATRIZ VARGAS ORTIZ",
+			"tipo_solicitud": "Solicitud de Ayuda Funeraria Trabajadores Activos.",
+			"lugar_acreditacion": "Tegucigalpa M.D.C.",
+			"monto": "15,435.00"
+		},
+		{
+			"identidad_solicitante": "0801197206973",
+			"nombre_completo_solicitante": "MANUEL ALEJANDRO TORRES AGUILAR",
+			"identidad_fallecido": "0801196006994",
+			"nombre_completo_fallecido": "ANA CAROLINA HERRERA RAMOS",
+			"tipo_solicitud": "Solicitud de Ayuda Funeraria Trabajadores Activos.",
+			"lugar_acreditacion": "Tegucigalpa M.D.C.",
+			"monto": "18,106.00"
+		},
+		{
+			"identidad_solicitante": "0801200718997",
+			"nombre_completo_solicitante": "DAVID FRANCISCO ROMERO NÚÑEZ",
+			"identidad_fallecido": "0801198713352",
+			"nombre_completo_fallecido": "VERÓNICA LUCÍA SOTO JIMÉNEZ",
+			"tipo_solicitud": "Solicitud de Ayuda Funeraria Trabajadores Activos.",
+			"lugar_acreditacion": "Tegucigalpa M.D.C.",
+			"monto": "15,435.00"
+		},
+		{
+			"identidad_solicitante": "0801197206973",
+			"nombre_completo_solicitante": "PEDRO ANTONIO PAZ GARCÍA",
+			"identidad_fallecido": "0801196006994",
+			"nombre_completo_fallecido": "GABRIELA ALEJANDRA PONCE LEÓN",
+			"tipo_solicitud": "Solicitud de Ayuda Funeraria Trabajadores Activos.",
+			"lugar_acreditacion": "Tegucigalpa M.D.C.",
+			"monto": "18,106.00"
+		},
+		{
+			"identidad_solicitante": "0801200718997",
+			"nombre_completo_solicitante": "SERGIO ESTEBAN CASTRO VÁSQUEZ",
+			"identidad_fallecido": "0801198713352",
+			"nombre_completo_fallecido": "DANIELA MICHELLE CÁCERES MOLINA",
+			"tipo_solicitud": "Solicitud de Ayuda Funeraria Trabajadores Activos.",
+			"lugar_acreditacion": "Tegucigalpa M.D.C.",
+			"monto": "15,435.00"
+		},
+		{
+			"identidad_solicitante": "0801197206973",
+			"nombre_completo_solicitante": "ÓSCAR ARMANDO COREA SALGADO",
+			"identidad_fallecido": "0801196006994",
+			"nombre_completo_fallecido": "ANDREA CAMILA BENÍTEZ ACOSTA",
+			"tipo_solicitud": "Solicitud de Ayuda Funeraria Trabajadores Activos.",
+			"lugar_acreditacion": "Tegucigalpa M.D.C.",
+			"monto": "18,106.00"
+		},
+		{
+			"identidad_solicitante": "0801200718997",
+			"nombre_completo_solicitante": "FERNANDO JOSÉ IRIAS MONTOYA",
+			"identidad_fallecido": "0801198713352",
+			"nombre_completo_fallecido": "PAULA VALENTINA DUARTE ESCOBAR",
+			"tipo_solicitud": "Solicitud de Ayuda Funeraria Trabajadores Activos.",
+			"lugar_acreditacion": "Tegucigalpa M.D.C.",
+			"monto": "15,435.00"
+		},
+		{
+			"identidad_solicitante": "0801200718997",
+			"nombre_completo_solicitante": "ROBERTO CARLOS ALVARADO SOSA",
+			"identidad_fallecido": "0801198713352",
+			"nombre_completo_fallecido": "CLAUDIA MARCELA PINEDA LAGOS",
+			"tipo_solicitud": "Solicitud de Ayuda Funeraria Trabajadores Activos.",
+			"lugar_acreditacion": "Tegucigalpa M.D.C.",
+			"monto": "15,435.00"
+		},
+		{
+			"identidad_solicitante": "0801200718997",
+			"nombre_completo_solicitante": "JULIO CÉSAR MATAMOROS BORJAS",
+			"identidad_fallecido": "0801198713352",
+			"nombre_completo_fallecido": "MÓNICA GABRIELA FUENTES ROJAS",
+			"tipo_solicitud": "Solicitud de Ayuda Funeraria Trabajadores Activos.",
+			"lugar_acreditacion": "Tegucigalpa M.D.C.",
+			"monto": "15,435.00"
+		},
+		{
+			"identidad_solicitante": "0801200718997",
+			"nombre_completo_solicitante": "HÉCTOR RAÚL ZÚÑIGA BARDALES",
+			"identidad_fallecido": "0801198713352",
+			"nombre_completo_fallecido": "NATALIA VICTORIA GALEANO CHÁVEZ",
+			"tipo_solicitud": "Solicitud de Ayuda Funeraria Trabajadores Activos.",
+			"lugar_acreditacion": "Tegucigalpa M.D.C.",
+			"monto": "15,435.00"
+		},
+		{
+			"identidad_solicitante": "0801200718997",
+			"nombre_completo_solicitante": "MARIO ALONSO OCHOA FIGUEROA",
+			"identidad_fallecido": "0801198713352",
+			"nombre_completo_fallecido": "CARMEN JULIANA ORELLANA MARADIAGA",
+			"tipo_solicitud": "Solicitud de Ayuda Funeraria Trabajadores Activos.",
+			"lugar_acreditacion": "Tegucigalpa M.D.C.",
+			"monto": "15,435.00"
+		},
+		{
+			"identidad_solicitante": "0801200718997",
+			"nombre_completo_solicitante": "GUSTAVO ADOLFO PALMA NAVARRO",
+			"identidad_fallecido": "0801198713352",
+			"nombre_completo_fallecido": "SANDRA LORENA CORDÓN CABALLERO",
+			"tipo_solicitud": "Solicitud de Ayuda Funeraria Trabajadores Activos.",
+			"lugar_acreditacion": "Tegucigalpa M.D.C.",
+			"monto": "15,435.00"
+		},
+		{
+			"identidad_solicitante": "0801200718997",
+			"nombre_completo_solicitante": "EDUARDO MIGUEL BARAHONA GUZMÁN",
+			"identidad_fallecido": "0801198713352",
+			"nombre_completo_fallecido": "CRISTINA MARIBEL VALLECILLO BRAVO",
+			"tipo_solicitud": "Solicitud de Ayuda Funeraria Trabajadores Activos.",
+			"lugar_acreditacion": "Tegucigalpa M.D.C.",
+			"monto": "15,435.00"
+		},
+		{
+			"identidad_solicitante": "0801200718997",
+			"nombre_completo_solicitante": "IVÁN ARTURO COLINDRES CALDERÓN",
+			"identidad_fallecido": "0801198713352",
+			"nombre_completo_fallecido": "XIMENA ROCÍO DELGADO CAMPOS",
+			"tipo_solicitud": "Solicitud de Ayuda Funeraria Trabajadores Activos.",
+			"lugar_acreditacion": "Tegucigalpa M.D.C.",
+			"monto": "15,435.00"
+		},
+		{
+			"identidad_solicitante": "0801200718997",
+			"nombre_completo_solicitante": "FRANCISCO DANIEL SORIANO VALLE",
+			"identidad_fallecido": "0801198713352",
+			"nombre_completo_fallecido": "GLORIA ESTEFANÍA SAAVEDRA IGLESIAS",
+			"tipo_solicitud": "Solicitud de Ayuda Funeraria Trabajadores Activos.",
+			"lugar_acreditacion": "Tegucigalpa M.D.C.",
+			"monto": "15,435.00"
+		},
+		{
+			"identidad_solicitante": "0801200718997",
+			"nombre_completo_solicitante": "NELSON OMAR PERDOMO ANDINO",
+			"identidad_fallecido": "0801198713352",
+			"nombre_completo_fallecido": "CECILIA ADRIANA DOMÍNGUEZ SANTOS",
+			"tipo_solicitud": "Solicitud de Ayuda Funeraria Trabajadores Activos.",
+			"lugar_acreditacion": "Tegucigalpa M.D.C.",
+			"monto": "15,435.00"
+		},
+		{
+			"identidad_solicitante": "0801200718997",
+			"nombre_completo_solicitante": "JOSÉ RAMÓN BUESO CARRANZA",
+			"identidad_fallecido": "0801198713352",
+			"nombre_completo_fallecido": "PATRICIA EUGENIA GUILLÉN VEGA",
+			"tipo_solicitud": "Solicitud de Ayuda Funeraria Trabajadores Activos.",
+			"lugar_acreditacion": "Tegucigalpa M.D.C.",
+			"monto": "15,435.00"
+		},
+		{
+			"identidad_solicitante": "0801200718997",
+			"nombre_completo_solicitante": "MARVIN ALEXIS CHINCHILLA LUNA",
+			"identidad_fallecido": "0801198713352",
+			"nombre_completo_fallecido": "ROSA ELVIRA CÁRDENAS ARIAS",
+			"tipo_solicitud": "Solicitud de Ayuda Funeraria Trabajadores Activos.",
+			"lugar_acreditacion": "Tegucigalpa M.D.C.",
+			"monto": "15,435.00"
+		},
+		{
+			"identidad_solicitante": "0801200718997",
+			"nombre_completo_solicitante": "GERARDO ANTONIO LÓPEZ PADILLA",
+			"identidad_fallecido": "0801198713352",
+			"nombre_completo_fallecido": "SILVIA RAQUEL MENDOZA SOLÍS",
+			"tipo_solicitud": "Solicitud de Ayuda Funeraria Trabajadores Activos.",
+			"lugar_acreditacion": "Tegucigalpa M.D.C.",
+			"monto": "15,435.00"
+		},
+		{
+			"identidad_solicitante": "0801200718997",
+			"nombre_completo_solicitante": "ARMANDO JESÚS PEÑA SALAZAR",
+			"identidad_fallecido": "0801198713352",
+			"nombre_completo_fallecido": "TERESA DE JESÚS RÍOS PARRA",
+			"tipo_solicitud": "Solicitud de Ayuda Funeraria Trabajadores Activos.",
+			"lugar_acreditacion": "Tegucigalpa M.D.C.",
+			"monto": "15,435.00"
+		},
+		{
+			"identidad_solicitante": "0801200718997",
+			"nombre_completo_solicitante": "ERNESTO JAVIER MEDINA SERRANO",
+			"identidad_fallecido": "0801198713352",
+			"nombre_completo_fallecido": "ANGÉLICA MARÍA GUERRA ROMÁN",
+			"tipo_solicitud": "Solicitud de Ayuda Funeraria Trabajadores Activos.",
+			"lugar_acreditacion": "Tegucigalpa M.D.C.",
+			"monto": "15,435.00"
+		},
+		{
+			"identidad_solicitante": "0801200718997",
+			"nombre_completo_solicitante": "WILMER ISRAEL BONILLA CORTÉS",
+			"identidad_fallecido": "0801198713352",
+			"nombre_completo_fallecido": "SUSANA ABIGAIL SOTO VIDAL",
+			"tipo_solicitud": "Solicitud de Ayuda Funeraria Trabajadores Activos.",
+			"lugar_acreditacion": "Tegucigalpa M.D.C.",
+			"monto": "15,435.00"
+		},
+		{
+			"identidad_solicitante": "0801200718997",
+			"nombre_completo_solicitante": "CHRISTIAN FABRICIO GODOY ORTEGA",
+			"identidad_fallecido": "0801198713352",
+			"nombre_completo_fallecido": "LILIANA MARISOL ROJAS GIL",
+			"tipo_solicitud": "Solicitud de Ayuda Funeraria Trabajadores Activos.",
+			"lugar_acreditacion": "Tegucigalpa M.D.C.",
+			"monto": "15,435.00"
+		},
+		{
+			"identidad_solicitante": "0801200718997",
+			"nombre_completo_solicitante": "WILMER ISRAEL BONILLA CORTÉS",
+			"identidad_fallecido": "0801198713352",
+			"nombre_completo_fallecido": "SUSANA ABIGAIL SOTO VIDAL",
+			"tipo_solicitud": "Solicitud de Ayuda Funeraria Trabajadores Activos.",
+			"lugar_acreditacion": "Tegucigalpa M.D.C.",
+			"monto": "15,435.00"
+		},
+		{
+			"identidad_solicitante": "0801200718997",
+			"nombre_completo_solicitante": "WILMER ISRAEL BONILLA CORTÉS",
+			"identidad_fallecido": "0801198713352",
+			"nombre_completo_fallecido": "SUSANA ABIGAIL SOTO VIDAL",
+			"tipo_solicitud": "Solicitud de Ayuda Funeraria Trabajadores Activos.",
+			"lugar_acreditacion": "Tegucigalpa M.D.C.",
+			"monto": "15,435.00"
+		},
+		{
+			"identidad_solicitante": "0801200718997",
+			"nombre_completo_solicitante": "CHRISTIAN FABRICIO GODOY ORTEGA",
+			"identidad_fallecido": "0801198713352",
+			"nombre_completo_fallecido": "LILIANA MARISOL ROJAS GIL",
+			"tipo_solicitud": "Solicitud de Ayuda Funeraria Trabajadores Activos.",
+			"lugar_acreditacion": "Tegucigalpa M.D.C.",
+			"monto": "15,435.00"
+		},
+		{
+			"identidad_solicitante": "0801200718997",
+			"nombre_completo_solicitante": "WILMER ISRAEL BONILLA CORTÉS",
+			"identidad_fallecido": "0801198713352",
+			"nombre_completo_fallecido": "SUSANA ABIGAIL SOTO VIDAL",
+			"tipo_solicitud": "Solicitud de Ayuda Funeraria Trabajadores Activos.",
+			"lugar_acreditacion": "Tegucigalpa M.D.C.",
+			"monto": "15,435.00"
+		},
+		{
+			"identidad_solicitante": "0801200718997",
+			"nombre_completo_solicitante": "WILMER ISRAEL BONILLA CORTÉS",
+			"identidad_fallecido": "0801198713352",
+			"nombre_completo_fallecido": "SUSANA ABIGAIL SOTO VIDAL",
+			"tipo_solicitud": "Solicitud de Ayuda Funeraria Trabajadores Activos.",
+			"lugar_acreditacion": "Tegucigalpa M.D.C.",
+			"monto": "15,435.00"
+		},
+		{
+			"identidad_solicitante": "0801200718997",
+			"nombre_completo_solicitante": "CHRISTIAN FABRICIO GODOY ORTEGA",
+			"identidad_fallecido": "0801198713352",
+			"nombre_completo_fallecido": "LILIANA MARISOL ROJAS GIL",
+			"tipo_solicitud": "Solicitud de Ayuda Funeraria Trabajadores Activos.",
+			"lugar_acreditacion": "Tegucigalpa M.D.C.",
+			"monto": "15,435.00"
+		},
+		{
+			"identidad_solicitante": "0801200718997",
+			"nombre_completo_solicitante": "WILMER ISRAEL BONILLA CORTÉS",
+			"identidad_fallecido": "0801198713352",
+			"nombre_completo_fallecido": "SUSANA ABIGAIL SOTO VIDAL",
+			"tipo_solicitud": "Solicitud de Ayuda Funeraria Trabajadores Activos.",
+			"lugar_acreditacion": "Tegucigalpa M.D.C.",
+			"monto": "15,435.00"
+		},
+		{
+			"identidad_solicitante": "0801200718997",
+			"nombre_completo_solicitante": "WILMER ISRAEL BONILLA CORTÉS",
+			"identidad_fallecido": "0801198713352",
+			"nombre_completo_fallecido": "SUSANA ABIGAIL SOTO VIDAL",
+			"tipo_solicitud": "Solicitud de Ayuda Funeraria Trabajadores Activos.",
+			"lugar_acreditacion": "Tegucigalpa M.D.C.",
+			"monto": "15,435.00"
+		},
+		{
+			"identidad_solicitante": "0801200718997",
+			"nombre_completo_solicitante": "CHRISTIAN FABRICIO GODOY ORTEGA",
+			"identidad_fallecido": "0801198713352",
+			"nombre_completo_fallecido": "LILIANA MARISOL ROJAS GIL",
+			"tipo_solicitud": "Solicitud de Ayuda Funeraria Trabajadores Activos.",
+			"lugar_acreditacion": "Tegucigalpa M.D.C.",
+			"monto": "15,435.00"
+		},
+		{
+			"identidad_solicitante": "0801200718997",
+			"nombre_completo_solicitante": "WILMER ISRAEL BONILLA CORTÉS",
+			"identidad_fallecido": "0801198713352",
+			"nombre_completo_fallecido": "SUSANA ABIGAIL SOTO VIDAL",
+			"tipo_solicitud": "Solicitud de Ayuda Funeraria Trabajadores Activos.",
+			"lugar_acreditacion": "Tegucigalpa M.D.C.",
+			"monto": "15,435.00"
+		},
+		{
+			"identidad_solicitante": "0801200718997",
+			"nombre_completo_solicitante": "WILMER ISRAEL BONILLA CORTÉS",
+			"identidad_fallecido": "0801198713352",
+			"nombre_completo_fallecido": "SUSANA ABIGAIL SOTO VIDAL",
+			"tipo_solicitud": "Solicitud de Ayuda Funeraria Trabajadores Activos.",
+			"lugar_acreditacion": "Tegucigalpa M.D.C.",
+			"monto": "15,435.00"
+		},
+		{
+			"identidad_solicitante": "0801200718997",
+			"nombre_completo_solicitante": "CHRISTIAN FABRICIO GODOY ORTEGA",
+			"identidad_fallecido": "0801198713352",
+			"nombre_completo_fallecido": "LILIANA MARISOL ROJAS GIL",
+			"tipo_solicitud": "Solicitud de Ayuda Funeraria Trabajadores Activos.",
+			"lugar_acreditacion": "Tegucigalpa M.D.C.",
+			"monto": "15,435.00"
+		},
+		{
+			"identidad_solicitante": "0801200718997",
+			"nombre_completo_solicitante": "WILMER ISRAEL BONILLA CORTÉS",
+			"identidad_fallecido": "0801198713352",
+			"nombre_completo_fallecido": "SUSANA ABIGAIL SOTO VIDAL",
+			"tipo_solicitud": "Solicitud de Ayuda Funeraria Trabajadores Activos.",
+			"lugar_acreditacion": "Tegucigalpa M.D.C.",
+			"monto": "15,435.00"
+		}
+	]
+}

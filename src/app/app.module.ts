@@ -12,6 +12,7 @@ import { VistaQrComponent } from './vista-qr/vista-qr.component';
 import { TablasComponent } from './tablas/tablas.component';
 import { InvalidezComponent } from './invalidez/invalidez.component';
 import { CertificacionNuevaComponent } from './certificacion-nueva/certificacion-nueva.component';
+import { PlanillaAyudaComponent } from './planilla-ayuda/planilla-ayuda.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { CertificacionNuevaComponent } from './certificacion-nueva/certificacion
     VistaQrComponent,
     TablasComponent,
     InvalidezComponent,
-    CertificacionNuevaComponent
+    CertificacionNuevaComponent,
+    PlanillaAyudaComponent
     
   ],
   imports: [
