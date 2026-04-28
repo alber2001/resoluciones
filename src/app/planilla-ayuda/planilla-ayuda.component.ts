@@ -7,9 +7,9 @@ pdfMake.vfs = pdfFonts.pdfMake.vfs;
 import { fonts } from '../config/pdfFonts';
 import { styles, defaultStyle } from '../config/customStyle';
 import { fondo_horizontal } from '../files/fondo_horizontal';
+import { fondo_2026 } from '../files/fondo_2026';
 
 import { Planilla } from '../model/ayuda.model';
-
 
 pdfMake.fonts = fonts;
 
@@ -271,9 +271,10 @@ export class PlanillaAyudaComponent implements OnInit {
       defaultStyle,
       background: [
         {
-          image: fondo_horizontal,
-          width: 936, // ancho real en landscape
-          height: 612, // alto real en landscape
+          image: fondo_2026,
+          width: 339,
+          height: 78,
+          margin: [290, -2, 0, 0],
         },
       ],
     };

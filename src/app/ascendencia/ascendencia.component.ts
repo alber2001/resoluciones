@@ -11,11 +11,11 @@ import { styles, defaultStyle } from '../config/customStyle';
 import { style } from '@angular/animations';
 
 @Component({
-  selector: 'app-certificacion-nueva',
-  templateUrl: './certificacion-nueva.component.html',
-  styleUrls: ['./certificacion-nueva.component.css'],
+  selector: 'app-ascendencia',
+  templateUrl: './ascendencia.component.html',
+  styleUrls: ['./ascendencia.component.css'],
 })
-export class CertificacionNuevaComponent implements OnInit {
+export class AscendenciaComponent implements OnInit {
   busqueda: string = '';
   resultados: resolucion[] = [];
   todosResoluciones: resolucion[] = [];
@@ -222,7 +222,7 @@ export class CertificacionNuevaComponent implements OnInit {
               lineHeight: 1.3,
             },
             {
-              text: 'Dirección ejecutiva, en uso de las facultades que la ley le otorga y con fundamento legal en los artículos: 74, 75, 76, 77, 78, 102 y 107 de la ley del Seguro Social; 6 130 153 154 y 174 del reglamento general de la ley del Seguro Social; 142 de la Constitución de la república; 22 23 24 25 y 72 de la ley del procedimiento administrativo y dictámenes agregados a cada uno de los expedientes presentados',
+              text: 'Dirección ejecutiva, en uso de las facultades que la ley le otorga y con fundamento legal en el artículo 142 de la Constitución de la República; en los artículos 52, 74, 75, 76, 77, 88 y 102 de la Ley del Seguro Social; en los artículos 22, 23, 24, 25 y 72 de la Ley de Procedimiento Administrativo; en los artículos 6, 111, 116, 117, 118, 119, 153, 168, 169, 170 y 174 del Reglamento General de la Ley del Seguro Social; en los dictámenes agregados a cada uno de los expedientes presentados. ',
               style: 'tituloN',
               alignment: 'justify',
               lineHeight: 1.3,
@@ -265,7 +265,7 @@ export class CertificacionNuevaComponent implements OnInit {
         {
           table: {
             headerRows: 1,
-            widths: ['auto', 'auto', '*', 'auto', 'auto', 'auto'],
+            widths: ['auto', 'auto', '*', 'auto', '*', 'auto', 'auto', 'auto'],
             body: [
               [
                 {
@@ -285,6 +285,12 @@ export class CertificacionNuevaComponent implements OnInit {
                 },
                 { text: 'DNI', alignment: 'center', style: 'normalTablaBold' },
                 {
+                  text: 'CAUSANTE',
+                  alignment: 'center',
+                  style: 'normalTablaBold',
+                },
+                { text: 'DNI', alignment: 'center', style: 'normalTablaBold' },
+                {
                   text: 'MONTO',
                   alignment: 'center',
                   style: 'normalTablaBold',
@@ -298,6 +304,16 @@ export class CertificacionNuevaComponent implements OnInit {
               [
                 { text: '1', alignment: 'center', style: 'tituloS' },
                 { text: `${item.rivm}`, alignment: 'center', style: 'tituloS' },
+                {
+                  text: `${item.solicitante}`,
+                  alignment: 'left',
+                  style: 'tituloS',
+                },
+                {
+                  text: `${item.DNI}`,
+                  alignment: 'center',
+                  style: 'tituloS',
+                },
                 {
                   text: `${item.solicitante}`,
                   alignment: 'left',
@@ -352,8 +368,7 @@ export class CertificacionNuevaComponent implements OnInit {
               lineHeight: 1.3,
             },
             {
-              text: 'La presenta resolución es de ejecución inmediata.',
-                
+              text: 'La presente resolución es de ejecución inmediata. ',
               style: 'tituloN',
               alignment: 'justify',
               lineHeight: 1.3,

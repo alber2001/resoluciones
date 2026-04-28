@@ -11,11 +11,11 @@ import { styles, defaultStyle } from '../config/customStyle';
 import { style } from '@angular/animations';
 
 @Component({
-  selector: 'app-certificacion-nueva',
-  templateUrl: './certificacion-nueva.component.html',
-  styleUrls: ['./certificacion-nueva.component.css'],
+  selector: 'app-cert-viudez',
+  templateUrl: './cert-viudez.component.html',
+  styleUrls: ['./cert-viudez.component.css'],
 })
-export class CertificacionNuevaComponent implements OnInit {
+export class CertViudezComponent implements OnInit {
   busqueda: string = '';
   resultados: resolucion[] = [];
   todosResoluciones: resolucion[] = [];
@@ -178,23 +178,23 @@ export class CertificacionNuevaComponent implements OnInit {
               lineHeight: 1.3,
             },
             {
-              text: 'Que en fecha cuatro (4) de marzo de dos mil veinticinco (2025), según Acta No. CB-05-2025, el Comité de Beneficios del Régimen de Invalidez, Vejez y Muerte, después de haber revisado aleatoriamente los expedientes de mérito, pudo comprobar que los (as) solicitantes reúnen los requisitos exigidos por Ley y acreditan el vínculo respectivo con el (la) asegurado (a) fallecido (a). Asimismo, se pudo comprobar los cálculos emitidos conforme a lo establecido en el artículo 130 del Reglamento General de la Ley del Seguro Social y la fecha de efectividad para el disfrute del beneficio de la ',
+              text: 'Que, en fecha cuatro (4) de marzo de dos mil veinticinco (2025), según Acta No. CB-05-2025, el Comité de Beneficios del Régimen de Invalidez, Vejez y Muerte, después de haber revisado aleatoriamente los expedientes de mérito, pudo comprobar que los(as) solicitantes reúnen los requisitos exigidos por ley y acreditan el vínculo respectivo con el (la) asegurado(a) fallecido(a). Asimismo, se pudo comprobar los cálculos emitidos conforme a lo establecido en el artículo 124 del Reglamento General de la Ley del Seguro Social y fecha de efectividad para el disfrute del beneficio de la ',
               style: 'tituloN',
               alignment: 'justify',
               lineHeight: 1.3,
             },
 
             {
-              text: 'PENSIÓN POR ASCENDENCIA ',
+              text: 'PENSIÓN POR VIUDEZ ',
               style: 'titulo',
               alignment: 'justify',
               lineHeight: 1.3,
             },
             {
               text:
-                'y recomienda a la Comisión Interventora del Instituto Hondureño de Seguridad Social proceder a la aprobación de sesenta y cuatro (' +
+                'y; recomienda a la Dirección Ejecutiva del Instituto Hondureño de Seguridad Social, proceder a la aprobación de sesenta y cuatro (' +
                 `${this.Cantidad}` +
-                ') expedientes relacionados en esta resolución. ',
+                ') expediente relacionados en esta Resolución. ',
               style: 'tituloN',
               alignment: 'justify',
               lineHeight: 1.3,
@@ -222,7 +222,7 @@ export class CertificacionNuevaComponent implements OnInit {
               lineHeight: 1.3,
             },
             {
-              text: 'Dirección ejecutiva, en uso de las facultades que la ley le otorga y con fundamento legal en los artículos: 74, 75, 76, 77, 78, 102 y 107 de la ley del Seguro Social; 6 130 153 154 y 174 del reglamento general de la ley del Seguro Social; 142 de la Constitución de la república; 22 23 24 25 y 72 de la ley del procedimiento administrativo y dictámenes agregados a cada uno de los expedientes presentados',
+              text: 'Dirección ejecutiva, en uso de las Facultades que la ley le otorga y con fundamento legal en el artículo 142 de la Constitución de la República; en los artículos 74, 75, 76, 77, 102 y 107 de la Ley del Seguro Social; 6, 123, 124, 131, 153, 154, y 174 del Reglamento General de la Ley del Seguro Social; 142 de la Constitución de la República; 22, 23, 24, 25 y 72 de la Ley de Procedimiento Administrativo y dictámenes que corren agregados a cada uno de los expedientes presentados. ',
               style: 'tituloN',
               alignment: 'justify',
               lineHeight: 1.3,
@@ -240,7 +240,7 @@ export class CertificacionNuevaComponent implements OnInit {
               lineHeight: 1.3,
             },
             {
-              text: 'PENSIÓN POR ASCENDENCIA, ',
+              text: 'PENSIÓN POR VIUDEZ, ',
               style: 'titulo',
               alignment: 'justify',
               lineHeight: 1.3,
@@ -255,7 +255,7 @@ export class CertificacionNuevaComponent implements OnInit {
               lineHeight: 1.3,
             },
             {
-              text: 'BENEFICIO DE PENSIÓN POR ASCENDENCIA ',
+              text: 'BENEFICIO DE PENSIÓN POR VIUDEZ ',
               style: 'titulo',
               alignment: 'justify',
               lineHeight: 1.3,
@@ -263,9 +263,19 @@ export class CertificacionNuevaComponent implements OnInit {
           ],
         },
         {
+          margin: [-30, 0, 0, 0],
           table: {
             headerRows: 1,
-            widths: ['auto', 'auto', '*', 'auto', 'auto', 'auto'],
+            widths: [
+              'auto',
+              'auto',
+              '*',
+              'auto',
+              '*',
+              'auto',
+              'auto',
+              'auto',
+            ],
             body: [
               [
                 {
@@ -285,6 +295,12 @@ export class CertificacionNuevaComponent implements OnInit {
                 },
                 { text: 'DNI', alignment: 'center', style: 'normalTablaBold' },
                 {
+                  text: 'CAUSANTE',
+                  alignment: 'center',
+                  style: 'normalTablaBold',
+                },
+                { text: 'DNI', alignment: 'center', style: 'normalTablaBold' },
+                {
                   text: 'MONTO',
                   alignment: 'center',
                   style: 'normalTablaBold',
@@ -298,6 +314,16 @@ export class CertificacionNuevaComponent implements OnInit {
               [
                 { text: '1', alignment: 'center', style: 'tituloS' },
                 { text: `${item.rivm}`, alignment: 'center', style: 'tituloS' },
+                {
+                  text: `${item.solicitante}`,
+                  alignment: 'left',
+                  style: 'tituloS',
+                },
+                {
+                  text: `${item.DNI}`,
+                  alignment: 'center',
+                  style: 'tituloS',
+                },
                 {
                   text: `${item.solicitante}`,
                   alignment: 'left',
@@ -352,8 +378,33 @@ export class CertificacionNuevaComponent implements OnInit {
               lineHeight: 1.3,
             },
             {
-              text: 'La presenta resolución es de ejecución inmediata.',
-                
+              text:
+                'Se hace de conocimiento a los(as) solictantes, lo dispuesto en el articulo 131 del Reglamento General de Ley del Seguro Social que establece que, el derecho a ' +
+                'simultáneo de la ',
+              style: 'tituloN',
+              alignment: 'justify',
+              lineHeight: 1.3,
+            },
+            {
+              text: 'PENSIÓN POR VIUDEZ ',
+              style: 'titulo',
+              alignment: 'justify',
+              lineHeight: 1.3,
+            },
+            {
+              text: 'se extingue por: 1) la muerte del beneficiario(a) y 2) cuando el(la) viudo(a) compañero(a) de hogar contraiga matrimonio o haga vida conyugal acreditada legalmente',
+              style: 'tituloN',
+              alignment: 'justify',
+              lineHeight: 1.3,
+            },
+            {
+              text: 'CUARTO: ',
+              style: 'titulo',
+              alignment: 'justify',
+              lineHeight: 1.3,
+            },
+            {
+              text: 'La presente resolución es de ejecución inmediata. ',
               style: 'tituloN',
               alignment: 'justify',
               lineHeight: 1.3,

@@ -31,7 +31,7 @@ export const styles = {
   },
   normalTablaBold: {
     font: 'Arial',
-    fontSize: 9,
+    fontSize: 7,
     bold: true
   },
   normalPeque: {
@@ -49,7 +49,7 @@ export const styles = {
   },
   tituloS:{
     font: 'Arial',
-    fontSize: 10,    
+    fontSize: 7.5,    
   },
   cabecera:{
     font: 'Arial',

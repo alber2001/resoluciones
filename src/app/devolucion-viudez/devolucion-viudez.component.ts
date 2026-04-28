@@ -11,11 +11,11 @@ import { styles, defaultStyle } from '../config/customStyle';
 import { style } from '@angular/animations';
 
 @Component({
-  selector: 'app-certificacion-nueva',
-  templateUrl: './certificacion-nueva.component.html',
-  styleUrls: ['./certificacion-nueva.component.css'],
+  selector: 'app-devolucion-viudez',
+  templateUrl: './devolucion-viudez.component.html',
+  styleUrls: ['./devolucion-viudez.component.css'],
 })
-export class CertificacionNuevaComponent implements OnInit {
+export class DevolucionViudezComponent implements OnInit {
   busqueda: string = '';
   resultados: resolucion[] = [];
   todosResoluciones: resolucion[] = [];
@@ -178,21 +178,46 @@ export class CertificacionNuevaComponent implements OnInit {
               lineHeight: 1.3,
             },
             {
-              text: 'Que en fecha cuatro (4) de marzo de dos mil veinticinco (2025), según Acta No. CB-05-2025, el Comité de Beneficios del Régimen de Invalidez, Vejez y Muerte, después de haber revisado aleatoriamente los expedientes de mérito, pudo comprobar que los (as) solicitantes reúnen los requisitos exigidos por Ley y acreditan el vínculo respectivo con el (la) asegurado (a) fallecido (a). Asimismo, se pudo comprobar los cálculos emitidos conforme a lo establecido en el artículo 130 del Reglamento General de la Ley del Seguro Social y la fecha de efectividad para el disfrute del beneficio de la ',
+              text: 'Que mediante ',
               style: 'tituloN',
               alignment: 'justify',
               lineHeight: 1.3,
             },
 
             {
-              text: 'PENSIÓN POR ASCENDENCIA ',
+              text: 'RESOLUCIÓN DE JUNTA DIRECTIVA NO. 08-25-03-2008',
               style: 'titulo',
               alignment: 'justify',
               lineHeight: 1.3,
             },
             {
+              text: '"Que se otorgue la devolución de cotizaciones a los (las) viudos (as) de los afiliados al IHSS que no lograron su jubilación, misma devolución de cotizaciones no tiene efectos retroactivos y se otorgaran a partir de la solicitud presentada, posterior a la aprobación en junta directiva de esta resolución". ',
+              style: 'tituloN',
+              alignment: 'justify',
+              lineHeight: 1.3,
+            },
+            {
+              text: 'CONSIDERANDO: ',
+              style: 'titulo',
+              alignment: 'justify',
+              lineHeight: 1.3,
+            },
+            {
+              text: 'Que en fecha cuatro (4) de marzo de dos mil veinticinco (2025), según Acta No. CB-05-2025, el Comité de Beneficios del Régimen de Invalidez, Vejez y Muerte, después de haber revisado aleatoriamente los expedientes de solicitud de',
+              style: 'tituloN',
+              alignment: 'justify',
+              lineHeight: 1.3,
+            },
+            {
+              text: ' DEVOLUCIÓN DE COTIZACIONES, ',
+              style: 'titulo',
+              alignment: 'justify',
+              lineHeight: 1.3,
+            },
+
+            {
               text:
-                'y recomienda a la Comisión Interventora del Instituto Hondureño de Seguridad Social proceder a la aprobación de sesenta y cuatro (' +
+                'pudo comprobar que los (as) solicitantes acreditan el vínculo respectivo con el (la) asegurado (a) fallecido (a). Asimismo, pudo comprobar los cálculos emitidos que corresponden al 1% del monto de los salarios base de referencia cuando voluntariamente el asegurado(a) decida retirar las cotizaciones personales efectuadas al Régimen de Invalidez, Vejez y Muerte del Instituto Hondureño de Seguridad Social y, recomienda a la Dirección Ejecutiva del Instituto Hondureño del seguro social, proceder a la aprobación de sesenta y cuatro (' +
                 `${this.Cantidad}` +
                 ') expedientes relacionados en esta resolución. ',
               style: 'tituloN',
@@ -222,7 +247,7 @@ export class CertificacionNuevaComponent implements OnInit {
               lineHeight: 1.3,
             },
             {
-              text: 'Dirección ejecutiva, en uso de las facultades que la ley le otorga y con fundamento legal en los artículos: 74, 75, 76, 77, 78, 102 y 107 de la ley del Seguro Social; 6 130 153 154 y 174 del reglamento general de la ley del Seguro Social; 142 de la Constitución de la república; 22 23 24 25 y 72 de la ley del procedimiento administrativo y dictámenes agregados a cada uno de los expedientes presentados',
+              text: 'Dirección ejecutiva, en uso de las facultades que la ley le otorga y con fundamento legal en Los artículos 74, 75, 76, 77 y 102 de la Ley del Seguro Social; 121, 153, 154 y 174 del Reglamento General de la Ley del Seguro Social; Resolución de Junta Directiva N° 08-25-03-2008; 142 de la constitución de la Republica; 22 23 24 25 y 72 de la Ley de Procedimiento Administrativo; y dictámenes que corren agregados a cada uno de los expedientes presentados. ',
               style: 'tituloN',
               alignment: 'justify',
               lineHeight: 1.3,
@@ -240,22 +265,7 @@ export class CertificacionNuevaComponent implements OnInit {
               lineHeight: 1.3,
             },
             {
-              text: 'PENSIÓN POR ASCENDENCIA, ',
-              style: 'titulo',
-              alignment: 'justify',
-              lineHeight: 1.3,
-            },
-            {
-              text:
-                'asumiendo los(as) beneficiarios(as), la obligación de acreditar su supervivencia semestralmente a ' +
-                'requerimiento del Instituto, y notificar el cambio de domicilio en el caso de que se produzca, dando ' +
-                'lugar su incumplimiento a la suspensión del goce de la pensión que se le está otorgando. ',
-              style: 'tituloN',
-              alignment: 'justify',
-              lineHeight: 1.3,
-            },
-            {
-              text: 'BENEFICIO DE PENSIÓN POR ASCENDENCIA ',
+              text: 'DEVOLUCIÓN DE COTIZACIONES, ',
               style: 'titulo',
               alignment: 'justify',
               lineHeight: 1.3,
@@ -265,7 +275,7 @@ export class CertificacionNuevaComponent implements OnInit {
         {
           table: {
             headerRows: 1,
-            widths: ['auto', 'auto', '*', 'auto', 'auto', 'auto'],
+            widths: ['auto', 'auto', '*', 'auto', 'auto', 'auto', 'auto'],
             body: [
               [
                 {
@@ -285,12 +295,17 @@ export class CertificacionNuevaComponent implements OnInit {
                 },
                 { text: 'DNI', alignment: 'center', style: 'normalTablaBold' },
                 {
+                  text: 'CAUSANTE',
+                  alignment: 'center',
+                  style: 'normalTablaBold',
+                },
+                {
                   text: 'MONTO',
                   alignment: 'center',
                   style: 'normalTablaBold',
                 },
                 {
-                  text: 'EFECTIVIDAD',
+                  text: 'OBSERVACIÓN',
                   alignment: 'center',
                   style: 'normalTablaBold',
                 },
@@ -309,12 +324,17 @@ export class CertificacionNuevaComponent implements OnInit {
                   style: 'tituloS',
                 },
                 {
+                  text: `NOMBRE CAUSANTE`,
+                  alignment: 'center',
+                  style: 'tituloS',
+                },
+                {
                   text: `${item.monto}`,
                   alignment: 'right',
                   style: 'tituloS',
                 },
                 {
-                  text: `${item.efectividad}`,
+                  text: `PAGO UNICO`,
                   alignment: 'center',
                   style: 'tituloS',
                 },
@@ -352,8 +372,7 @@ export class CertificacionNuevaComponent implements OnInit {
               lineHeight: 1.3,
             },
             {
-              text: 'La presenta resolución es de ejecución inmediata.',
-                
+              text: 'La presente resolución es de ejecución inmediata. ',
               style: 'tituloN',
               alignment: 'justify',
               lineHeight: 1.3,

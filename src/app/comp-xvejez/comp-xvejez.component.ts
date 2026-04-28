@@ -11,11 +11,11 @@ import { styles, defaultStyle } from '../config/customStyle';
 import { style } from '@angular/animations';
 
 @Component({
-  selector: 'app-certificacion-nueva',
-  templateUrl: './certificacion-nueva.component.html',
-  styleUrls: ['./certificacion-nueva.component.css'],
+  selector: 'app-comp-xvejez',
+  templateUrl: './comp-xvejez.component.html',
+  styleUrls: ['./comp-xvejez.component.css']
 })
-export class CertificacionNuevaComponent implements OnInit {
+export class CompXvejezComponent implements OnInit {
   busqueda: string = '';
   resultados: resolucion[] = [];
   todosResoluciones: resolucion[] = [];
@@ -54,7 +54,7 @@ export class CertificacionNuevaComponent implements OnInit {
     const documentDefinition = {
       pageSize: { width: 612, height: 936 },
       pageOrientation: 'portrait',
-      pageMargins: [76.4, 25, 45, 35], // Márgenes personalizados (izquierda, superior, derecha, inferior)
+      pageMargins: [76.4, 10, 45, 35], // Márgenes personalizados (izquierda, superior, derecha, inferior)
       content: this.documentContent(data),
       styles,
       defaultStyle,
@@ -72,17 +72,17 @@ export class CertificacionNuevaComponent implements OnInit {
         {
           text: 'VEINTICINCO DE ABRIL DE DOS MIL VEINTICINCO \n',
           style: 'titulo',
-          lineHeight: 2,
+          lineHeight: 1,
         },
         {
           text: `SEÑOR(A) ${item.solicitante}`,
           style: 'titulo',
-          lineHeight: 1.3,
+          lineHeight: 1,
         },
         {
           text: `DOCUMENTO NACIONAL DE IDENTIFICACIÓN ${item.DNI}. \n`,
           style: 'titulo',
-          lineHeight: 2,
+          lineHeight: 1,
         },
 
         {
@@ -178,23 +178,23 @@ export class CertificacionNuevaComponent implements OnInit {
               lineHeight: 1.3,
             },
             {
-              text: 'Que en fecha cuatro (4) de marzo de dos mil veinticinco (2025), según Acta No. CB-05-2025, el Comité de Beneficios del Régimen de Invalidez, Vejez y Muerte, después de haber revisado aleatoriamente los expedientes de mérito, pudo comprobar que los (as) solicitantes reúnen los requisitos exigidos por Ley y acreditan el vínculo respectivo con el (la) asegurado (a) fallecido (a). Asimismo, se pudo comprobar los cálculos emitidos conforme a lo establecido en el artículo 130 del Reglamento General de la Ley del Seguro Social y la fecha de efectividad para el disfrute del beneficio de la ',
+              text: 'Que en fecha cuatro (4) de marzo de dos mil veinticinco (2025), según Acta No. CB-05-2025, el Comité de Beneficios del Régimen de Invalidez, Vejez y Muerte, después de haber revisado aleatoriamente los expedientes de mérito, pudo comprobar que los(as) solicitantes reúnen los requisitos exigidos en el artículo 8,9 y 10 de la Ley de reconocimiento de cotizaciones individuales y aportaciones patronales entre Institutos Públicos de Previsión Social y articulo 16 de su reglamento. Asimismo, se pudo comprobar los cálculos de las pensiones, observando las disposiciones establecidas en los artículos 16, 17, 18, 19 y 21 del reglamento de la Ley de Reconocimiento de Cotizaciones Individuales y Aportaciones Patronales entre Institutos Públicos de Previsión Social y la fecha de efectividad para el goce del beneficio de la ',
               style: 'tituloN',
               alignment: 'justify',
               lineHeight: 1.3,
             },
 
             {
-              text: 'PENSIÓN POR ASCENDENCIA ',
+              text: 'PENSION COMPLEMENTARIA POR VEJEZ ',
               style: 'titulo',
               alignment: 'justify',
               lineHeight: 1.3,
             },
             {
               text:
-                'y recomienda a la Comisión Interventora del Instituto Hondureño de Seguridad Social proceder a la aprobación de sesenta y cuatro (' +
+                'de acuerdo con lo establecido en el artículo 24 del mismo Reglamento y; recomienda a la Dirección Ejecutiva del Instituto Hondureño de Seguridad Social, proceder a la aprobación de (' +
                 `${this.Cantidad}` +
-                ') expedientes relacionados en esta resolución. ',
+                ') expedientes relacionados en esta Resolución. ',
               style: 'tituloN',
               alignment: 'justify',
               lineHeight: 1.3,
@@ -222,7 +222,7 @@ export class CertificacionNuevaComponent implements OnInit {
               lineHeight: 1.3,
             },
             {
-              text: 'Dirección ejecutiva, en uso de las facultades que la ley le otorga y con fundamento legal en los artículos: 74, 75, 76, 77, 78, 102 y 107 de la ley del Seguro Social; 6 130 153 154 y 174 del reglamento general de la ley del Seguro Social; 142 de la Constitución de la república; 22 23 24 25 y 72 de la ley del procedimiento administrativo y dictámenes agregados a cada uno de los expedientes presentados',
+              text: 'Dirección ejecutiva, en uso de las facultades que la ley le otorga y con fundamento legal en el artículo 142 de la Constitución de la República; en los artículos 74, 75, 76, 77 y 102 de la Ley del Seguro Social; 6, 116, 153, 154, 159 y 174 del Reglamento General de la ley del Seguro Social; 7, 8, 9 y 10 de la ley de Reconocimiento de Cotizaciones Individuales y Aportaciones entre institutos Públicos de Previsión social; 16, 17, 18, 19, 21 y 24 del Reglamento de la Ley de Reconocimiento de Cotizaciones Individuales y Aportaciones Patronales entre Institutos Públicos de Previsión Social; 142 de la Constitución de la Republica; 22, 23, 24, 25 y 72 de la Ley de Procedimiento Administrativo; y demás aplicables al caso. ',
               style: 'tituloN',
               alignment: 'justify',
               lineHeight: 1.3,
@@ -240,7 +240,7 @@ export class CertificacionNuevaComponent implements OnInit {
               lineHeight: 1.3,
             },
             {
-              text: 'PENSIÓN POR ASCENDENCIA, ',
+              text: 'PENSIÓN COMPLEMENTARIA POR VEJEZ, ',
               style: 'titulo',
               alignment: 'justify',
               lineHeight: 1.3,
@@ -255,7 +255,7 @@ export class CertificacionNuevaComponent implements OnInit {
               lineHeight: 1.3,
             },
             {
-              text: 'BENEFICIO DE PENSIÓN POR ASCENDENCIA ',
+              text: 'BENEFICIO DE PENSIÓN COMPLEMENTARIA POR VEJEZ ',
               style: 'titulo',
               alignment: 'justify',
               lineHeight: 1.3,
@@ -329,7 +329,7 @@ export class CertificacionNuevaComponent implements OnInit {
               text: 'SEGUNDO: ',
               style: 'titulo',
               alignment: 'justify',
-              lineHeight: 1.3,
+              lineHeight: 1.1,
             },
             {
               text:
@@ -337,32 +337,59 @@ export class CertificacionNuevaComponent implements OnInit {
                 'correspondientes y aplique los pagos correspondientes a los beneficios aprobados en el resuelve ',
               style: 'tituloN',
               alignment: 'justify',
-              lineHeight: 1.3,
+              lineHeight: 1.1,
             },
             {
               text: 'PRIMERO. ',
               style: 'titulo',
               alignment: 'justify',
-              lineHeight: 1.3,
+              lineHeight: 1.1,
             },
             {
               text: 'TERCERO: ',
               style: 'titulo',
               alignment: 'justify',
-              lineHeight: 1.3,
+              lineHeight: 1.1,
             },
             {
-              text: 'La presenta resolución es de ejecución inmediata.',
-                
+              text:
+                'Se hace del conocimiento a los(as) solicitantes, la incompatibilidad del disfrute ' +
+                'simultáneo de la ',
               style: 'tituloN',
               alignment: 'justify',
-              lineHeight: 1.3,
+              lineHeight: 1.1,
+            },
+            {
+              text: 'PENSIÓN COMPLEMENTARIA POR VEJEZ ',
+              style: 'titulo',
+              alignment: 'justify',
+              lineHeight: 1.1,
+            },
+            {
+              text:
+                'con el de un salario proveniente de una actividad sujeta al ' +
+                'Seguro Social. ',
+              style: 'tituloN',
+              alignment: 'justify',
+              lineHeight: 1.1,
+            },
+            {
+              text: 'CUARTO: ',
+              style: 'titulo',
+              alignment: 'justify',
+              lineHeight: 1.1,
+            },
+            {
+              text: 'La presente resolución es de ejecución inmediata. ',
+              style: 'tituloN',
+              alignment: 'justify',
+              lineHeight: 1.1,
             },
             {
               text: 'MANDA: ',
               style: 'titulo',
               alignment: 'justify',
-              lineHeight: 1.3,
+              lineHeight: 1.1,
             },
             {
               text:
@@ -373,30 +400,30 @@ export class CertificacionNuevaComponent implements OnInit {
                 'alguno. ',
               style: 'tituloN',
               alignment: 'justify',
-              lineHeight: 1.3,
+              lineHeight: 1.1,
             },
             {
               text: 'NOTIFIQUESE.',
               style: 'titulo',
               alignment: 'justify',
-              lineHeight: 1.3,
+              lineHeight: 1.1,
             },
           ],
         },
         {
           text: '\nABG. LEONEL OMAR QUIROZ GONZALES',
           style: 'titulo',
-          lineHeight: 1.2,
+          lineHeight: 1.1,
         },
         {
           text: 'SECRETARIO GENERAL IHSS',
           style: 'titulo',
-          lineHeight: 1.2,
+          lineHeight: 1.1,
         },
         {
           text: 'MAJU',
           style: 'tituloN',
-          lineHeight: 1.2,
+          lineHeight: 1.1,
           fontSize: 8,
         },
       ];

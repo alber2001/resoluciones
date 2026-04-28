@@ -13,6 +13,15 @@ import { TablasComponent } from './tablas/tablas.component';
 import { InvalidezComponent } from './invalidez/invalidez.component';
 import { CertificacionNuevaComponent } from './certificacion-nueva/certificacion-nueva.component';
 import { PlanillaAyudaComponent } from './planilla-ayuda/planilla-ayuda.component';
+import { CompXvejezComponent } from './comp-xvejez/comp-xvejez.component';
+import { CertViudezComponent } from './cert-viudez/cert-viudez.component';
+import { AscendenciaComponent } from './ascendencia/ascendencia.component';
+import { InvalidezRiesgoComunComponent } from './invalidez-riesgo-comun/invalidez-riesgo-comun.component';
+import { PensionPermanenteTotalComponent } from './pension-permanente-total/pension-permanente-total.component';
+import { PensionPermanenteParcialComponent } from './pension-permanente-parcial/pension-permanente-parcial.component';
+import { DevolucionComponent } from './devolucion/devolucion.component';
+import { DevolucionViudezComponent } from './devolucion-viudez/devolucion-viudez.component';
+import { ReporteBancoComponent } from './reporte-banco/reporte-banco.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +34,16 @@ import { PlanillaAyudaComponent } from './planilla-ayuda/planilla-ayuda.componen
     TablasComponent,
     InvalidezComponent,
     CertificacionNuevaComponent,
-    PlanillaAyudaComponent
+    PlanillaAyudaComponent,
+    CompXvejezComponent,
+    CertViudezComponent,
+    AscendenciaComponent,
+    InvalidezRiesgoComunComponent,
+    PensionPermanenteTotalComponent,
+    PensionPermanenteParcialComponent,
+    DevolucionComponent,
+    DevolucionViudezComponent,
+    ReporteBancoComponent
     
   ],
   imports: [
